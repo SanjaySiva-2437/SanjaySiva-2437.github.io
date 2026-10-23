@@ -1,29 +1,29 @@
-# Sanjay Siva — Cyberpunk Portfolio
+# Sanjay Siva — Engineering Portfolio
 
-Personal portfolio for an AI/ML engineer, designed with a minimal cyberpunk aesthetic: deep-dark surfaces, neon cyan and magenta accents, abstract orbital artwork, responsive layouts, and subtle motion.
+An editorial-style personal portfolio built with plain HTML, CSS, and JavaScript. The design uses a warm paper palette, forest-green surfaces, rust accents, serif/sans typography, custom CSS illustrations, generous spacing, and restrained motion.
 
-## Live site
+## Site
 
-Once the GitHub Pages workflow completes: **https://sanjaysiva-2437.github.io/**
+https://sanjaysiva-2437.github.io/
+
+## Sections
+
+- Selected projects: CattleGo, GPS-Denied Drone, NEXUS, ValamTech, DocGen, GalenRx, and Automated Player Performance Analysis
+- Experience: ACA Technologies, SRM ISD Lab, and Stabilitas Pvt Ltd
+- Education, technical skills, certifications, and hackathon achievements
+- Languages, interests, and contact links (email, phone, LinkedIn, GitHub)
 
 ## Built with
 
 - Semantic HTML
-- Responsive CSS (no build step)
+- Responsive CSS (no framework or build step)
 - Vanilla JavaScript
-- Google Fonts (Manrope and DM Mono)
+- Google Fonts: DM Sans, DM Mono, and Newsreader
 
-## Deploy
+## Deployment
 
-This repository includes a GitHub Actions workflow at `.github/workflows/pages.yml`. It deploys the static site to GitHub Pages whenever a commit is pushed to `main`, and can also be run manually from the Actions tab. The repository must allow GitHub Actions to deploy Pages; the workflow attempts to configure Pages when supported by the repository permissions.
+GitHub Actions deploys the static files to GitHub Pages on pushes to \`main\` using \`.github/workflows/pages.yml\`.
 
-## Before sharing publicly
+## Maintenance notes
 
-- Verify all CV details, dates, metrics, recognition, and project descriptions.
-- Update project links in `index.html` to the relevant repositories where you have them.
-- Confirm the LinkedIn URL is correct.
-- Contact email is included intentionally; no phone number is published.
-
-## Local preview
-
-Open `index.html` in any modern browser. The site uses plain static files, so no package installation or compilation is needed.
+Some project repositories are private or not published as a standalone repository; these entries are marked accordingly rather than linking to an unverified URL. Keep résumé dates, credentials, project metrics, and profile links current before using the site for applications.
