@@ -9,7 +9,7 @@ if ("IntersectionObserver" in window && !prefersReducedMotion) {
     });
   }, { threshold: 0.08, rootMargin: "0px 0px -20px 0px" });
   document.querySelectorAll(".reveal").forEach((element, index) => {
-    element.style.transitionDelay = \`\${(index % 3) * 45}ms\`;
+    element.style.transitionDelay = String((index % 3) * 45) + "ms";
     observer.observe(element);
   });
 } else {
@@ -37,4 +37,3 @@ if (menuButton && navigation) {
     if (event.key === "Escape") closeNavigation();
   });
 }
-
